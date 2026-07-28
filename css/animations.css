@@ -1,0 +1,259 @@
+/* ========================================
+   GLOBAL TRANSITIONS
+======================================== */
+
+*{
+    transition:
+        background-color .3s ease,
+        color .3s ease,
+        border-color .3s ease,
+        transform .2s ease,
+        opacity .3s ease,
+        box-shadow .3s ease;
+}
+
+/* ========================================
+   BUTTON HOVER
+======================================== */
+
+.btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.25);
+
+}
+
+.icon-btn:hover{
+
+    transform:rotate(8deg) scale(1.05);
+
+}
+
+/* ========================================
+   BUTTON CLICK
+======================================== */
+
+.btn:active{
+
+    transform:scale(.94);
+
+}
+
+.icon-btn:active{
+
+    transform:scale(.9);
+
+}
+
+/* ========================================
+   DISPLAY
+======================================== */
+
+.display{
+
+    animation:fadeIn .6s ease;
+
+}
+
+/* ========================================
+   HISTORY
+======================================== */
+
+.history-item{
+
+    animation:slideUp .35s ease;
+
+}
+
+/* ========================================
+   SCIENTIFIC PANEL
+======================================== */
+
+.scientific-buttons{
+
+    animation:fadeDown .35s ease;
+
+    transform-origin:top;
+
+}
+
+/* ========================================
+   THEME SWITCH
+======================================== */
+
+body{
+
+    transition:
+        background-color .35s ease,
+        color .35s ease;
+
+}
+
+/* ========================================
+   CARD HOVER
+======================================== */
+
+.calculator-container:hover{
+
+    transform:translateY(-4px);
+
+}
+
+/* ========================================
+   FADE
+======================================== */
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(15px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ========================================
+   SLIDE UP
+======================================== */
+
+@keyframes slideUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ========================================
+   FADE DOWN
+======================================== */
+
+@keyframes fadeDown{
+
+    from{
+
+        opacity:0;
+
+        transform:scaleY(.8);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:scaleY(1);
+
+    }
+
+}
+
+/* ========================================
+   RIPPLE EFFECT
+======================================== */
+
+.ripple{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.ripple::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:50%;
+
+    top:50%;
+
+    width:10px;
+
+    height:10px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.35);
+
+    transform:translate(-50%,-50%) scale(0);
+
+    opacity:0;
+
+}
+
+.ripple:active::after{
+
+    animation:ripple .45s ease;
+
+}
+
+@keyframes ripple{
+
+    0%{
+
+        transform:translate(-50%,-50%) scale(0);
+
+        opacity:.7;
+
+    }
+
+    100%{
+
+        transform:translate(-50%,-50%) scale(18);
+
+        opacity:0;
+
+    }
+
+}
+
+/* ========================================
+   SCROLLBAR
+======================================== */
+
+.history-list::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+.history-list::-webkit-scrollbar-thumb{
+
+    background:rgba(255,255,255,.25);
+
+    border-radius:10px;
+
+}
+
+.history-list::-webkit-scrollbar-track{
+
+    background:transparent;
+
+}

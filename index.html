@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Advanced Calculator</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+
+    <main class="calculator">
+
+        <div class="calculator-container">
+
+            <!-- Header -->
+            <header class="calculator-header">
+
+                <h1>Calculator</h1>
+
+                <div class="header-actions">
+
+                    <button id="scientific-toggle" class="icon-btn">
+                        🧮
+                    </button>
+
+                    <button id="theme-toggle" class="icon-btn">
+                        🌙
+                    </button>
+
+                </div>
+
+            </header>
+
+            <!-- Display -->
+            <section class="display">
+
+                <div class="expression"></div>
+
+                <div class="result">0</div>
+
+            </section>
+
+            <!-- Memory -->
+            <section class="memory-buttons">
+
+                <button class="btn memory">MC</button>
+                <button class="btn memory">MR</button>
+                <button class="btn memory">M+</button>
+                <button class="btn memory">M-</button>
+
+            </section>
+
+            <!-- Scientific Buttons -->
+            <section class="scientific-buttons hidden">
+
+                <button class="btn scientific">x²</button>
+                <button class="btn scientific">√</button>
+                <button class="btn scientific">xʸ</button>
+                <button class="btn scientific">(</button>
+                <button class="btn scientific">)</button>
+
+                <button class="btn scientific">ANS</button>
+                <button class="btn scientific">COPY</button>
+
+            </section>
+
+            <!-- Calculator Buttons -->
+            <section class="buttons">
+
+                <button class="btn clear">AC</button>
+                <button class="btn delete">DEL</button>
+                <button class="btn operator">%</button>
+                <button class="btn operator">/</button>
+
+                <button class="btn number">7</button>
+                <button class="btn number">8</button>
+                <button class="btn number">9</button>
+                <button class="btn operator">*</button>
+
+                <button class="btn number">4</button>
+                <button class="btn number">5</button>
+                <button class="btn number">6</button>
+                <button class="btn operator">-</button>
+
+                <button class="btn number">1</button>
+                <button class="btn number">2</button>
+                <button class="btn number">3</button>
+                <button class="btn operator">+</button>
+
+                <button class="btn operator">±</button>
+                <button class="btn number">0</button>
+                <button class="btn number">.</button>
+                <button class="btn equal">=</button>
+
+            </section>
+
+            <!-- History -->
+            <aside class="history">
+
+                <div class="history-header">
+
+                    <h2>History</h2>
+
+                    <button id="clear-history">
+                        Clear
+                    </button>
+
+                </div>
+
+                <div class="history-list"></div>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+    <script type="module" src="js/app.js"></script>
+
+</body>
+
+</html>

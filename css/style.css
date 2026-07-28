@@ -1,0 +1,383 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+
+    --bg:#0f172a;
+    --card:rgba(255,255,255,.08);
+    --border:rgba(255,255,255,.12);
+
+    --text:#ffffff;
+    --text-light:#94a3b8;
+
+    --primary:#3b82f6;
+    --danger:#ef4444;
+    --success:#22c55e;
+
+    --shadow:0 20px 50px rgba(0,0,0,.35);
+
+}
+
+body.light{
+
+    --bg:#edf2f7;
+    --card:#ffffff;
+    --border:#d6d6d6;
+
+    --text:#111827;
+    --text-light:#6b7280;
+
+}
+
+/* ===========================
+   BODY
+=========================== */
+
+body{
+
+    font-family:"Poppins",sans-serif;
+
+    background:var(--bg);
+
+    color:var(--text);
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    transition:.35s;
+
+    padding:25px;
+
+}
+
+/* ===========================
+   CALCULATOR
+=========================== */
+
+.calculator-container{
+
+    width:430px;
+
+    background:var(--card);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid var(--border);
+
+    border-radius:25px;
+
+    padding:25px;
+
+    box-shadow:var(--shadow);
+
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.calculator-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.calculator-header h1{
+
+    font-size:28px;
+
+    font-weight:600;
+
+}
+
+.header-actions{
+
+    display:flex;
+
+    gap:10px;
+
+}
+
+.icon-btn{
+
+    width:42px;
+
+    height:42px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    background:var(--card);
+
+    color:var(--text);
+
+    font-size:18px;
+
+}
+
+/* ===========================
+   DISPLAY
+=========================== */
+
+.display{
+
+    background:rgba(255,255,255,.05);
+
+    border-radius:18px;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    min-height:110px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+}
+
+.expression{
+
+    color:var(--text-light);
+
+    font-size:20px;
+
+    min-height:30px;
+
+    text-align:right;
+
+    word-break:break-all;
+
+}
+
+.result{
+
+    margin-top:12px;
+
+    font-size:38px;
+
+    font-weight:700;
+
+    text-align:right;
+
+    word-break:break-all;
+
+}
+
+/* ===========================
+   MEMORY
+=========================== */
+
+.memory-buttons{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:10px;
+
+    margin-bottom:15px;
+
+}
+
+/* ===========================
+   SCIENTIFIC
+=========================== */
+
+.scientific-buttons{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:10px;
+
+    margin-bottom:15px;
+
+}
+
+.hidden{
+
+    display:none;
+
+}
+
+/* ===========================
+   BUTTON GRID
+=========================== */
+
+.buttons{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:12px;
+
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.btn{
+
+    border:none;
+
+    cursor:pointer;
+
+    height:65px;
+
+    border-radius:18px;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    color:var(--text);
+
+    background:rgba(255,255,255,.08);
+
+    transition:.2s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-2px);
+
+}
+
+.btn:active{
+
+    transform:scale(.95);
+
+}
+
+.operator{
+
+    background:#2563eb;
+
+}
+
+.equal{
+
+    background:#16a34a;
+
+}
+
+.clear{
+
+    background:#dc2626;
+
+}
+
+.delete{
+
+    background:#f59e0b;
+
+}
+
+/* ===========================
+   HISTORY
+=========================== */
+
+.history{
+
+    margin-top:25px;
+
+    border-top:1px solid var(--border);
+
+    padding-top:20px;
+
+}
+
+.history-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:15px;
+
+}
+
+.history-header button{
+
+    border:none;
+
+    padding:8px 14px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    background:var(--danger);
+
+    color:white;
+
+}
+
+.history-list{
+
+    max-height:220px;
+
+    overflow-y:auto;
+
+}
+
+.history-item{
+
+    padding:12px;
+
+    margin-bottom:10px;
+
+    border-radius:12px;
+
+    background:rgba(255,255,255,.05);
+
+    cursor:pointer;
+
+}
+
+.history-item:hover{
+
+    background:rgba(255,255,255,.12);
+
+}
+body.dark {
+    background-color: #121212;
+    color: white;
+}
