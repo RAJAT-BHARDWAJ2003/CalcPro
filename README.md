@@ -10,7 +10,7 @@ The project focuses on creating a smooth calculator experience while implementin
 
 Add your deployed project link after hosting:
 
-**Live Demo:** https://rajat-bhardwaj2003.github.io/CalcPro/
+**Live Demo:**  https://rajat-bhardwaj2003.github.io/CalcPro/
 
 **GitHub Repository:** https://github.com/RAJAT-BHARDWAJ2003/CalcPro
 
@@ -151,6 +151,17 @@ Flexible layout design
 Mobile-friendly interface
 
 ## Screenshots
+**HOME**
+<img width="1920" height="1080" alt="home" src="https://github.com/user-attachments/assets/4152014f-00d9-4a2b-af83-9daf0aca888b" />
+
+**ADVANCE MODE**
+<img width="1920" height="1080" alt="advance" src="https://github.com/user-attachments/assets/1ec27f5e-34e8-4ca1-9bc1-c06868f20876" />
+
+**STORAGE**
+<img width="1920" height="1080" alt="Storage" src="https://github.com/user-attachments/assets/69b09cb5-0da3-48d8-b225-b315a48c5d0a" />
+
+
+
 
 
 
