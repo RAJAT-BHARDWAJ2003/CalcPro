@@ -152,13 +152,16 @@ Mobile-friendly interface
 
 ## Screenshots
 **HOME**
-<img width="1920" height="1080" alt="home" src="https://github.com/user-attachments/assets/4152014f-00d9-4a2b-af83-9daf0aca888b" />
+<img width="1920" height="1080" alt="home" src="https://github.com/user-attachments/assets/913d1702-01cf-4772-ba7c-1ca762b74b22" />
+
 
 **ADVANCE MODE**
-<img width="1920" height="1080" alt="advance" src="https://github.com/user-attachments/assets/1ec27f5e-34e8-4ca1-9bc1-c06868f20876" />
+<img width="1920" height="1080" alt="advance" src="https://github.com/user-attachments/assets/522ba7aa-b9c0-4a3d-851b-f9d8a364305b" />
+
 
 **STORAGE**
-<img width="1920" height="1080" alt="Storage" src="https://github.com/user-attachments/assets/69b09cb5-0da3-48d8-b225-b315a48c5d0a" />
+<img width="1920" height="1080" alt="Storage" src="https://github.com/user-attachments/assets/6b946b72-ed5c-4034-a661-8a42eb918feb" />
+
 
 
 
