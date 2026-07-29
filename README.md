@@ -186,11 +186,7 @@ GitHub:
 
 https://github.com/RAJAT-BHARDWAJ2003
 
-LinkedIn:
-
-Your profile
-
-linkedin.com/in/rajat-bhardwaj2003
+LinkedIn: linkedin.com/in/rajat-bhardwaj2003
 
 
 # License
